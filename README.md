@@ -192,4 +192,4 @@ Sentence Transformers
 
 ---
 
-✅ You can save this as `README.md` in your repository root — it’s fully formatted for GitHub display, includes all setup instructions, and works with your current codebase.****
+✅ You can save this as `README.md` in your repository root — it’s fully formatted for GitHub display, includes all setup instructions, and works with your current codebase.
