@@ -195,7 +195,7 @@ This project is open-source under the MIT License.
 💡 Credits
 
 Developed using:
-## LangChain
+##### LangChain
 ## HuggingFace Transformers
 ## Chroma
 ## Sentence Transformers
