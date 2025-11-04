@@ -92,37 +92,33 @@ PDF_PATH = r"C:\path\to\your\document.pdf"
 ▶️ Usage
 
 Run the main script:
-
+```
 python main.py
-
+```
 
 You’ll see:
-
+```
 📄 Loading PDF...
 ✂️ Splitting text into chunks...
 🧠 Creating and storing embeddings...
 ✅ Embeddings stored successfully.
 
 💬 Enter your query:
-
+```
 
 Type your question (e.g., What is this document about?)
 and you’ll get the top 3 most relevant text chunks from your PDF.
 
 🧰 Requirements
 
-Python 3.9+
-
-LangChain
-
-HuggingFace Transformers
-
-ChromaDB
-
-PyPDF2
+- Python 3.9+
+- LangChain
+- HuggingFace Transformers
+- ChromaDB
+- PyPDF2
 
 All handled via:
-
+```
 langchain-community
 langchain-text-splitters
 langchain-huggingface
