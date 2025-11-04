@@ -149,31 +149,38 @@ In conclusion, the paper emphasizes the importance of...
 
 <img width="864" height="215" alt="image" src="https://github.com/user-attachments/assets/13e034be-9bb0-4eb7-84dd-35715b0e649c" />
 
-```
+
 🧱 How It Works Internally
-Step	Component	Description
-1	PyPDFLoader	Reads and extracts text from PDFs
-2	RecursiveCharacterTextSplitter	Breaks text into overlapping chunks
-3	HuggingFaceEmbeddings	Converts text into dense numerical vectors
-4	Chroma	Stores vectors and performs similarity search
-5	QueryEngine	Retrieves and displays the most relevant content
+| Step | Component                          | Description                                      |
+| ---- | ---------------------------------- | ------------------------------------------------ |
+| 1    | **PyPDFLoader**                    | Reads and extracts text from PDFs                |
+| 2    | **RecursiveCharacterTextSplitter** | Breaks text into overlapping chunks              |
+| 3    | **HuggingFaceEmbeddings**          | Converts text into dense numerical vectors       |
+| 4    | **Chroma**                         | Stores vectors and performs similarity search    |
+| 5    | **QueryEngine**                    | Retrieves and displays the most relevant content |
+
+
+
 🧩 Customization
 
 Change the embedding model in config.py:
-
+```
 EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
+```
 
 
 Adjust chunk size or overlap for better granularity:
-
+```
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
+```
 
 🧹 Cleanup
 
 To clear your local Chroma database:
-
+```
 rm -rf chroma_db
+```
 
 🤝 Contributing
 
@@ -184,21 +191,18 @@ Suggestions and improvements are always welcome!
 
 This project is open-source under the MIT License.
 
+
 💡 Credits
 
 Developed using:
+## LangChain
+## HuggingFace Transformers
+## Chroma
+## Sentence Transformers
 
-LangChain
-
-HuggingFace Transformers
-
-Chroma
-
-Sentence Transformers
 
 💬 “Empower your documents with intelligence — one vector at a time.”
 
-
----
+```
 
 ✅ You can save this as `README.md` in your repository root — it’s fully formatted for GitHub display, includes all setup instructions, and works with your current codebase.
