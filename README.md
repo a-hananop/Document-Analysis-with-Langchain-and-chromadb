@@ -195,10 +195,10 @@ This project is open-source under the MIT License.
 💡 Credits
 
 Developed using:
-##### LangChain
-## HuggingFace Transformers
-## Chroma
-## Sentence Transformers
+#### LangChain
+#### HuggingFace Transformers
+#### Chroma
+#### Sentence Transformers
 
 
 💬 “Empower your documents with intelligence — one vector at a time.”
