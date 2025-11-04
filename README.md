@@ -149,7 +149,7 @@ In conclusion, the paper emphasizes the importance of...
 
 <img width="864" height="215" alt="image" src="https://github.com/user-attachments/assets/13e034be-9bb0-4eb7-84dd-35715b0e649c" />
 
-
+```
 🧱 How It Works Internally
 Step	Component	Description
 1	PyPDFLoader	Reads and extracts text from PDFs
