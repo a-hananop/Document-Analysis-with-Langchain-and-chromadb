@@ -126,9 +126,10 @@ pypdf
 sentence-transformers
 
 🧩 Example Output
-💬 Enter your query: what is this document about?
+💬 Enter your query: what is this document about?```
 
-🔍 Top relevant chunks:
+
+# 🔍 Top relevant chunks:
 
 Result (1):
 This paper discusses the role of generative AI in modern chatbots...
