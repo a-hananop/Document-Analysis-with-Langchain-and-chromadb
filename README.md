@@ -1,4 +1,4 @@
-# Document-Analysis-with-Langchain-and-chromadb
+# Document-Analysis-with-LangChain-and-chromaDB
 
 # 📚 PDF Vector Embedding with LangChain & Chroma
 
