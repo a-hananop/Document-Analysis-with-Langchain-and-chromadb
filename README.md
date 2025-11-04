@@ -69,21 +69,26 @@ pdf_vector_repo/
 ```bash
 git clone <your_repo_url>
 cd pdf_vector_repo
+```
 
-2. Create a virtual environment (recommended)
+### 2. Create a virtual environment (recommended)
+```
 python -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
+```
 
-3. Install dependencies
+### 3. Install dependencies
+```
 pip install -r requirements.txt
+```
 
 4. Configure paths
 
 In src/config.py, update the path to your PDF:
-
+```
 PDF_PATH = r"C:\path\to\your\document.pdf"
-
+```
 ▶️ Usage
 
 Run the main script:
