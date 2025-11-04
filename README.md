@@ -124,9 +124,10 @@ langchain-huggingface
 chromadb
 pypdf
 sentence-transformers
+```
 
 🧩 Example Output
-💬 Enter your query: what is this document about?```
+💬 Enter your query: what is this document about?
 
 
 # 🔍 Top relevant chunks:
