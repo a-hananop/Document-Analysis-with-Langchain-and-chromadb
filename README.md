@@ -132,14 +132,21 @@ sentence-transformers
 
 Result (1):
 This paper discusses the role of generative AI in modern chatbots...
-...
+
+<img width="550" height="234" alt="image" src="https://github.com/user-attachments/assets/fcfea270-d760-4ffa-b0a1-2673f7d9b11e" />
+
 
 Result (2):
 The document highlights advances in transformer-based models...
-...
+
+<img width="470" height="370" alt="image" src="https://github.com/user-attachments/assets/295a9827-a510-4f32-9d6a-dec85468218b" />
+
 
 Result (3):
 In conclusion, the paper emphasizes the importance of...
+
+<img width="864" height="215" alt="image" src="https://github.com/user-attachments/assets/13e034be-9bb0-4eb7-84dd-35715b0e649c" />
+
 
 🧱 How It Works Internally
 Step	Component	Description
