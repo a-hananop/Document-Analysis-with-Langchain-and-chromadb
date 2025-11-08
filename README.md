@@ -130,6 +130,7 @@ sentence-transformers
 🧩 Example Output
 💬 Enter your query: what is this document about?
 
+---
 
 # 🔍 Top relevant chunks:
 
