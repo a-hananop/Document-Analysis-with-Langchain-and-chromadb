@@ -1,5 +1,7 @@
 # Document-Analysis-with-LangChain-and-chromaDB
 
+---
+
 # 📚 PDF Vector Embedding with LangChain & Chroma
 
 This project demonstrates how to build a **PDF-based retrieval system** using the **LangChain framework**, **HuggingFace embeddings**, and a **local Chroma vector database**.
@@ -151,6 +153,7 @@ In conclusion, the paper emphasizes the importance of...
 
 <img width="864" height="215" alt="image" src="https://github.com/user-attachments/assets/13e034be-9bb0-4eb7-84dd-35715b0e649c" />
 
+---
 
 ## 🧱 How It Works Internally
 | Step | Component                          | Description                                      |
@@ -161,7 +164,7 @@ In conclusion, the paper emphasizes the importance of...
 | 4    | **Chroma**                         | Stores vectors and performs similarity search    |
 | 5    | **QueryEngine**                    | Retrieves and displays the most relevant content |
 
-
+---
 
 ## 🧩 Customization
 
@@ -177,6 +180,8 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 ```
 
+---
+
 ## 🧹 Cleanup
 
 To clear your local Chroma database:
@@ -184,15 +189,20 @@ To clear your local Chroma database:
 rm -rf chroma_db
 ```
 
+---
+
 ## 🤝 Contributing
 
 Feel free to fork this repository and open pull requests.
 Suggestions and improvements are always welcome!
 
+---
+
 ## 📜 License
 
 This project is open-source under the MIT License.
 
+---
 
 ## 💡 Credits
 
