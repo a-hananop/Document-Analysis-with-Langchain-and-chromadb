@@ -151,7 +151,7 @@ In conclusion, the paper emphasizes the importance of...
 <img width="864" height="215" alt="image" src="https://github.com/user-attachments/assets/13e034be-9bb0-4eb7-84dd-35715b0e649c" />
 
 
-🧱 How It Works Internally
+## 🧱 How It Works Internally
 | Step | Component                          | Description                                      |
 | ---- | ---------------------------------- | ------------------------------------------------ |
 | 1    | **PyPDFLoader**                    | Reads and extracts text from PDFs                |
@@ -162,7 +162,7 @@ In conclusion, the paper emphasizes the importance of...
 
 
 
-🧩 Customization
+## 🧩 Customization
 
 Change the embedding model in config.py:
 ```
@@ -176,24 +176,24 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 ```
 
-🧹 Cleanup
+## 🧹 Cleanup
 
 To clear your local Chroma database:
 ```
 rm -rf chroma_db
 ```
 
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork this repository and open pull requests.
 Suggestions and improvements are always welcome!
 
-📜 License
+## 📜 License
 
 This project is open-source under the MIT License.
 
 
-💡 Credits
+## 💡 Credits
 
 Developed using:
 - LangChain
